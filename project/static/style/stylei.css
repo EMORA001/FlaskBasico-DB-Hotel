@@ -1,0 +1,123 @@
+
+body{
+    font-family: Segoe UI;
+	background: #f5f5f6;
+	margin: auto;
+}
+
+.menu-nav{
+    background-color: rgba(238, 240, 240, 0.678);
+    text-align: end;
+    height: 38px;
+    text-decoration: none;
+}
+
+
+
+.navbar{
+    text-decoration: none;
+	font-size: 1.2rem;
+    color: black;
+    font-family: Segoe UI;
+    position: relative;
+    top: 6px;
+    right: 20px;
+    padding: 6px;
+}
+
+.navbar:hover{
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white;
+}
+
+
+.title{
+    text-align: center;
+    color: white;
+}
+
+
+.container{
+	margin: auto;
+	width: 400px;
+	position: relative;
+	top: 150px;
+}
+
+.alertMessa{
+    background-color: rgb(236, 77, 19);
+    text-align: center;
+    border-radius: 10px;
+    font-family: Segoe UI;
+    font-size: 1.2rem;
+    padding: 10px;
+    color: azure;
+}
+
+.alertMessa a{
+    color: rgb(0, 62, 143);
+}
+.alertMessa a:hover{
+    color:azure;
+}
+
+
+.content{
+	background-color: white;
+	text-align: center;
+	margin: auto;
+    width: 400px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 10px rgb(122, 116, 116);
+	padding: 0;
+}
+
+
+
+.divInput{
+	margin: 10px;
+}
+
+.divInput input{
+	background-color: white;
+    margin-top: 15px;
+    font-family: Segoe UI;
+    width: 350px;
+    height: 2rem;
+    border: 0px;
+    outline: none;
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+	border-bottom: 1px solid rgba(165, 156, 156, 0.76);
+}
+
+.btn{
+    margin: auto;
+    background-color: rgb(0, 110, 255);
+    border: 0;
+    text-align: center;
+    font-family: Segoe UI;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    color: white;
+    margin-top: 10px;
+    width: 350px;
+    height: 3rem;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(0, 81, 255);
+}
+
+
+
+
+
+
+
+
+

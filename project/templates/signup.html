@@ -1,0 +1,27 @@
+{% extends "baseLR.html" %}
+{% block content %}
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <div class="alertMessa">
+                <p id="contentMessa"> {{ messages[0] }}.</p>
+            </div>
+        {% endif %}
+    {% endwith %}
+    <h1 class="title">SIGN UP</h1>
+    <div class="content" id="content-signup">
+        <form action="/signup" method="POST">
+            <div class="divInput">
+                <input type="email" name="email" placeholder="Email" id="email">
+            </div>
+            
+            <div class="divInput">
+                <input type="text" name="name" placeholder="Name" id="name">
+            </div>
+
+            <div class="divInput">
+                <input type="password" name="password" placeholder="Password" id="password">
+            </div>
+            <button type="submit" class="btn">Sign Up</button>
+        </form>
+    </div>
+{% endblock %}

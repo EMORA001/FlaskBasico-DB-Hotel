@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style/stylei.css') }}">
+
+    <head>
+        <meta charset="utf-8">
+        <title>hotelG4</title>
+        <meta name="description" content="inventary controller"/>
+        <meta name="author" content="hotelG4"/>
+    </head>
+    <body style="background-image: url('static/imagenes/background.jpg');">
+        <div class="menu-nav">
+            <a href="{{ url_for('main.home') }}" class="navbar">Home</a>
+            <a href="{{ url_for('auth.login') }}" class="navbar">Login</a>
+            <a href="{{ url_for('auth.signup') }}" class="navbar">Sign Up</a>
+        </div>
+        <div class="container">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </body>
+</html>
